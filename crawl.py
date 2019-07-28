@@ -84,8 +84,6 @@ def main():
         )
         print("Start:", file_name)
         with open(file_name, "w") as f:
-            print("# Downloaded from {}".format(url), file=f)
-            print(file=f)
             print(speech_content, file=f)
         print("Finished:", file_name)
 
