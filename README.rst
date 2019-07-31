@@ -27,7 +27,7 @@ be downloaded after you entered the following commands::
    sudo apt install python3-virtualenv
    mkdir -p ~/speeches
    cd ~/speeches
-   virtualenv env
+   virtualenv env -p /usr/bin/python3
    source env/bin/activate
    git clone 'https://github.com/seppeljordan/erdogan-speech-downloader.git' code
    pip install -r code/requirements.txt
